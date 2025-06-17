@@ -64,4 +64,21 @@ body {
     margin: 0 0.5rem;
     text-decoration: none;
   }
+
+  .detalle-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .detalle-imagenes img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+  }
+  
+  .detalle-video {
+    margin-top: 2rem;
+  }
   
