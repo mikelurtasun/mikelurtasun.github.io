@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "titulo": "Eguzkilore",
+      "descripcion": "Cuenta la leyenda que en el inicio de los tiempos, cuando los hombres comenzaron a poblar la Tierra, no existían ni el sol ni la luna y los hombres se encontraban inmersos en una gran oscuridad, asustados por las numerosas criaturas que salían de las entrañas de la Tierra: toros de fuego, caballos voladores, enormes dragones, genios y brujas… Los hombres vivían en cavernas, temerosos y expectantes, hasta que finalmente, en su desesperación, decidieron pedir ayuda a Amalur (\"Madre Tierra\" en Euskera).",
+      "imagenes": ["img/eguzkilore01.jpg", "img/eguzkilore02.jpg", "img/eguzkilore03.jpg"],
+      "video": ["img/eguzkilore01.mpeg"],
+      "enlace": "detalle.html?id=1"
+    },
+    {
+        "id": 2,
+        "titulo": "Eguzkilore - Lore bat sortuko dut",
+        "descripcion": "(eu) Lore bat sortuko dut, eta hain ederra izango da, berari ikustean gaueko izakiek ihes egingo dutela, Eguzki bera delakoan.",
+        "imagenes": ["img/eguzkilore_bat01.jpg", "img/eguzkilore_bat02.jpg", "img/eguzkilore_bat03.jpg"],
+        "video": ["img/eguzkilore_bat01.mpeg"],
+        "enlace": "detalle.html?id=2"
+      },
+      {
+        "id": 3,
+        "titulo": "Aberri askearen alde jendea libre jaiki",
+        "descripcion": "(eu) Aberri askearen alde, jendea libre jaiki\n(la) Pro libertate patriae, gens libera state",
+        "imagenes": ["img/aberri01.jpg", "img/aberri02.jpg", "img/aberri03.jpg"],
+        "video": [],
+        "enlace": "detalle.html?id=3"
+      },
+      {
+        "id": 4,
+        "titulo": "Stuck on you - Amyl and the Sniffers",
+        "descripcion": "Chewing gum - Cartoon Darkness",
+        "imagenes": ["img/amyl01.jpg", "img/amyl02.jpg", "img/amyl03.jpg"],
+        "video": [],
+        "enlace": "detalle.html?id=4"
+      }
+  ]
+  
