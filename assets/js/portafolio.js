@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("data/portfolio.json")
+    fetch("data/portafolio.json")
       .then((response) => response.json())
-      .then((data) => renderPortfolio(data))
+      .then((data) => renderPortafolio(data))
       .catch((error) => console.error("Error cargando el portafolio:", error));
   });
   
-  function renderPortfolio(trabajos) {
-    const grid = document.getElementById("portfolio-grid");
+  function renderPortafolio(trabajos) {
+    const grid = document.getElementById("portafolio-grid");
   
     trabajos.forEach((trabajo) => {
       const item = document.createElement("div");
