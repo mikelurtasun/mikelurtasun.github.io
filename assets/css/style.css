@@ -35,8 +35,8 @@ body {
   .grid-container {
     background: #eee;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
   }
   
   .grid-item {
