@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
   
-    fetch("data/portfolio.json")
+    fetch("data/portafolio.json")
       .then((response) => response.json())
       .then((data) => {
         const diseño = data.find(item => item.id === id);
