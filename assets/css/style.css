@@ -40,18 +40,20 @@ body {
   }
   
   .grid-item {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    text-align: center;
-    background: #f9f9f9;
-  }
-  
-  .grid-item img {
-    max-width: 100%;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     display: block;
-  }
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover img {
+    transform: scale(1.05);
+}
   
   footer {
     background: #fff;
