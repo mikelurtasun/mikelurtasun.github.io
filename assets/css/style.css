@@ -32,12 +32,11 @@ body {
     padding: 2rem;
   }
   
-  .grid-container {
-    background: #eee;
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
   
   .grid-item {
     border: 1px solid #ccc;
