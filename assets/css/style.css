@@ -1,8 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-serif);
+    background: var(--color-bg);
+    color: var(--color-base);
+    transition: background .3s, ease-out, color .3s ease-out;
+    transition-delay: .25;
     margin: 0;
-    padding: 0;
   }
+  
+.site-wrapper {
+  max-width: 1920px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3vw;
+}
   
   header {
     background: #fff;
