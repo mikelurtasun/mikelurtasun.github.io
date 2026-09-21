@@ -15,6 +15,16 @@ body {
   
   header .logo {
     font-weight: bold;
+    font-family: var(--font-sans-serif);
+    color: var(--color-base);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    flex-shrink: 0;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1em;
+    display: block;
   }
   
   nav ul {
